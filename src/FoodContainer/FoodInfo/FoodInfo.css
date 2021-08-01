@@ -1,0 +1,45 @@
+.FoodInfo {
+  position: relative;
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.FoodInfo > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.FoodInfo .Heading {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #191e31;
+}
+.FoodInfo h4 {
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.FoodInfo:hover .Heading {
+  visibility: visible;
+  opacity: 0.7;
+}
+@media screen and (min-width: 400px) {
+  .FoodInfo {
+    margin-bottom: unset;
+  }
+}

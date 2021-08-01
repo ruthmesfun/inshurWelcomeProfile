@@ -1,0 +1,18 @@
+.FoodContainer {
+  background-color: #191e31;
+  padding: 24px;
+}
+
+.FoodContainer__food{
+    display: inline-block;
+}
+
+@media screen and (min-width: 400px) {
+  .FoodContainer__food {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+  }
+}
