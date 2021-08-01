@@ -1,0 +1,28 @@
+.Heading__text {
+  font-weight: 800;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+.Heading__text--dark {
+  color: #191e31;
+}
+
+.Heading__text--light {
+  color: #fff;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+.Heading .Heading__slash {
+  margin-left: 10px;
+  color: #1fc4d6;
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 60px;
+  }
+}
