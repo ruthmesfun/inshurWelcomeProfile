@@ -1,0 +1,16 @@
+button {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-style: solid;
+  border-color: #1fc4d6;
+  background-color: white;
+  border-width: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button:hover {
+  background-color: #1fc4d6;
+  border-color: transparent;
+}
