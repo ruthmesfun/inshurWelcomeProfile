@@ -9,7 +9,6 @@
 
 
 ### Setup
-1. `git clone https://github.com/Inshur/welcome-to-inshur.git`
-1. `cd welcome-to-inshur`
-1. `yarn install`
-1. `yarn start`
+1. `git clone git@github.com:ruthmesfun/inshurWelcomeProfile.git`
+2. `yarn install`
+3. `yarn start`
