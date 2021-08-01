@@ -1,6 +1,7 @@
 # Welcome to the Inshur Coding Challenge 💻
 
 - I only wrote tests for two components to show my abilities on writing tests. But usually I write tests for every component I create. 
+- I tried to focus on mobile responsiveness as well as component placement for future use
 
 [Video clip of the profile](https://www.youtube.com/watch?v=Z3pYfu-spWM)
 
