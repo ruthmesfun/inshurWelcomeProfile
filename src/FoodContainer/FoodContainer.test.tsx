@@ -25,16 +25,3 @@ test("updates food list when search is implemented", () => {
   getByAltText("Cheese Hamburger");
   expect(result.length).toEqual(1);
 });
-
-// test("alt text is name of Food", () => {
-//   const { name, image } = FOOD_LIST[0];
-//   const { getByAltText } = render(<FoodContainer/>);
-
-//   getByAltText(name);
-// });
-
-// test("renders food name", () => {
-//   const { name, image } = FOOD_LIST[0];
-//   const { getByText } = render(<FoodContainer/>);
-//   getByText(name);
-// });
