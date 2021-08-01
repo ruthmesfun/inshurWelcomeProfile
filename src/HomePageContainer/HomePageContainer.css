@@ -1,0 +1,46 @@
+.HomePageContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.HomePageContainer__profile {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomePageContainer__profile > .Image img {
+  border-radius: 50%;
+}
+
+h2.Heading__text {
+  font-weight: 400;
+}
+
+.HomePageContainer__foodContainer {
+  background-color: #191e31;
+  width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+  .HomePageContainer__profile {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+  }
+
+  .HomePageContainer__intro {
+    margin-bottom: 60px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
